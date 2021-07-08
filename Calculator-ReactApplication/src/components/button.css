@@ -1,0 +1,19 @@
+.button-wrapper{
+    height: 3em;
+    margin: 4px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: #5A5A5A;
+    text-align: center;
+    
+}
+.button-wrapper div{
+    width: 117px;
+}
+.btn-style:hover{
+    cursor: pointer;
+}

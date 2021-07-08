@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+  color: white;
+}
+.App {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.calc-wrapper{
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  color: black;
+
+}
+.row{
+  display: flex;
+}
+.App h1{
+  text-align: center;
+}
+.delete{
+  display: flex;
+  width: 20vw;
+}
