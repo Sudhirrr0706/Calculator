@@ -1,0 +1,46 @@
+.myStory img{
+    max-width: 100%;
+    border-radius: 50%;
+  
+}
+.myStoryPic{
+    border: 2px solid ;
+}
+.myStory p{
+    font-size: 11.5px;
+}
+
+.plus {
+    border-radius: 100%;
+    position: relative;
+    left: -4vw;
+    top: 3vh;
+}
+
+
+.stories{
+   overflow: auto;  
+    scroll-behavior: smooth; 
+    scrollbar-width: none;
+}
+.stories::-webkit-scrollbar {
+    display: none;
+  }
+.otherStory img{
+    border: 2px solid ;
+}
+@media only screen and (min-width: 1440px) {
+    .plus {
+       
+        border-radius: 100%;
+        position: relative;
+        left:-1vw;
+        top: 2.5vh;
+    }
+    .FeedSection{
+        height: 70vh;
+    }
+    .myStory p{
+        font-size: 13px;
+    }
+  }

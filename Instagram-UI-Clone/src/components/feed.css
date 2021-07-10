@@ -1,0 +1,28 @@
+/*Feed Head Icon*/
+.head1{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.feed-1 p{
+    font-size: 14px;
+}
+.footer-logos img{
+    transition: 0.5s;
+}
+.accProfiler img{
+    border-radius: 50%;
+}
+.heartClick:hover{
+    cursor: pointer;
+}
+.commentClick:hover{
+    cursor: pointer;
+}
+#caption{
+    font-size: 13.5px;
+}
+@media only screen and (min-width: 1440px) {
+    .accname {
+       font-size: 25px;
+    }
+  }

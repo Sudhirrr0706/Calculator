@@ -1,0 +1,33 @@
+.screen{
+    background-color: black;
+    border-radius: 25px;
+  
+}
+.screenDisplay{
+    height: 100vh;
+  }
+  .FeedSection{
+      height: 53.5vh;
+      overflow: auto;
+      scroll-behavior: smooth;
+  }
+  .profiler{
+      max-width: 100%;
+      border-radius: 50%;
+  }
+  .FeedSection::-webkit-scrollbar, .suggestionCards::-webkit-scrollbar {
+    display: none;
+  }
+  .suggestionCards{
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+  .SuggestionSection p{
+      font-size: 13px;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .accname {
+       font-size: 25px;
+    }
+  }
