@@ -1,0 +1,12 @@
+
+.content h1{
+    font-size: 12px;
+    text-align: center;
+}
+.content ul li{
+    font-size: 12px;
+    color: rgb(238, 238, 76);
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.925)
+}
