@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+}
+.formSection{
+    border: 2px solid rgba(255, 255, 255, 0.575);
+    border-radius: 10px;
+    font-family: 'Cairo', sans-serif;
+}
+#floatingInput, #floatingPassword{
+    background-color: rgba(255, 255, 0, 0);
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.575);
+    color: white;
+}
+label{
+    color: rgba(255, 255, 255, 0.445);
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .head{
+      color: grey;
+      text-align: center;
+  }
+  .head h3{
+    font-size: 40px;
+    font-family: 'Style Script', cursive;
+  }
