@@ -1,4 +1,4 @@
-Download the Project
+Download the project
 Open the folder in terminal
 Run the command - npm install
 Run the command - npm install react-bootstrap@next bootstrap@5.0.2
